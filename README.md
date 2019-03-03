@@ -1,3 +1,3 @@
-# navagationKeyboard
+# navigationKeyboard
 
 #### this is my second little project
