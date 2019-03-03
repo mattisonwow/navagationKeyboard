@@ -81,7 +81,7 @@
 
         </ol>
         </div>
-    <footer class="footer"><p>Matiison</p></footer>
+    <footer class="footer"><p>Matson</p></footer>
 <script>
 
     var hash=init()
@@ -153,13 +153,10 @@
 	}	
 	function listenToUser(hash){
 		document.onkeypress = function(events){
-                var key = events['key'] 
-                if(hash[key]){
-				var website = hash[key]
+                var key = events['key']
+                var website = hash[key]
                 window.open('http://'+website, '_blank')
-                }else{
-                }
-			}
+                
 		}
     
 
